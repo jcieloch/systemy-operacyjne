@@ -1,0 +1,47 @@
+static
+./main_static create_table 4  search . main.c tmp_name remove_table
+Real Time: 0 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_static create_table 4000000  search . main.c tmp_name remove_block 0 remove_table
+Real Time: 1 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_static create_table 40000000000  search . main.c tmp_name remove_block 0 remove_table
+Real Time: 0 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_static create_table 40000  search . main.c tmp_name remove_block 0 wartosc 100 remove_table
+Real Time: 17 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_static create_table 40000  search . main.c tmp_name remove_block 0 wartosc 10000 remove_table
+Real Time: 1611 ms, User Time: 5 ms, System Time: 68 ms
+
+./main_static create_table 40000  search . *.txt tmp_name remove_block 0 wartosc 1 remove_table
+Real Time: 0 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_static create_table 40000  search . *.txt tmp_name remove_block 0 wartosc 1000 remove_table
+Real Time: 162 ms, User Time: 2 ms, System Time: 5 ms
+
+dynamic
+./main_dynamic create_table 4  search . main.c tmp_name remove_table
+Real Time: 0 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_dynamic create_table 4000000  search . main.c tmp_name remove_block 0 remove_table
+Real Time: 1 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_dynamic create_table 40000000000  search . main.c tmp_name remove_block 0 remove_table
+Real Time: 0 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_dynamic create_table 40000  search . main.c tmp_name remove_block 0 wartosc 100 remove_table
+Real Time: 17 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_dynamic create_table 40000  search . main.c tmp_name remove_block 0 wartosc 10000 remove_table
+Real Time: 1613 ms, User Time: 10 ms, System Time: 69 ms
+
+./main_dynamic create_table 40000  search . *.txt tmp_name remove_block 0 wartosc 1 remove_table
+Real Time: 0 ms, User Time: 0 ms, System Time: 0 ms
+
+./main_dynamic create_table 40000  search . *.txt tmp_name remove_block 0 wartosc 1000 remove_table
+Real Time: 162 ms, User Time: 1 ms, System Time: 6 ms
+
+
+Czasy są podobne, możliwe że napisane testy nie różnicują czasu wykonania.
+
