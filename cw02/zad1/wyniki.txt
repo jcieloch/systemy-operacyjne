@@ -1,0 +1,183 @@
+./main generate test.txt 1000 1
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 1000 1 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 1 lib
+User Time: 4, System Time: 4
+
+./main copy test.txt test2.txt 1000 1 sys
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 1 sys
+User Time: 4, System Time: 13
+
+./main generate test.txt 10000 1
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 10000 1 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 10000 1 lib
+User Time: 393, System Time: 238
+
+./main copy test.txt test2.txt 10000 1 sys
+User Time: 0, System Time: 2
+
+./main sort test2.txt 10000 1 sys
+User Time: 393, System Time: 1401
+
+./main generate test.txt 1000 4
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 1000 4 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 4 lib
+User Time: 5, System Time: 1
+
+./main copy test.txt test2.txt 1000 4 sys
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 4 sys
+User Time: 3, System Time: 14
+
+./main generate test.txt 10000 4
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 10000 4 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 10000 4 lib
+User Time: 480, System Time: 262
+
+./main copy test.txt test2.txt 10000 4 sys
+User Time: 0, System Time: 2
+
+./main sort test2.txt 10000 4 sys
+User Time: 362, System Time: 1400
+
+./main generate test.txt 1000 512
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 1000 512 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 512 lib
+User Time: 5, System Time: 5
+
+./main copy test.txt test2.txt 1000 512 sys
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 512 sys
+User Time: 6, System Time: 17
+
+./main generate test.txt 10000 512
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 10000 512 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 10000 512 lib
+User Time: 590, System Time: 685
+
+./main copy test.txt test2.txt 10000 512 sys
+User Time: 0, System Time: 2
+
+./main sort test2.txt 10000 512 sys
+User Time: 444, System Time: 1714
+
+./main generate test.txt 1000 1024
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 1000 1024 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 1024 lib
+User Time: 7, System Time: 7
+
+./main copy test.txt test2.txt 1000 1024 sys
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 1024 sys
+User Time: 3, System Time: 20
+
+./main generate test.txt 10000 1024
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 10000 1024 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 10000 1024 lib
+User Time: 763, System Time: 1196
+
+./main copy test.txt test2.txt 10000 1024 sys
+User Time: 0, System Time: 3
+
+./main sort test2.txt 10000 1024 sys
+User Time: 465, System Time: 2104
+
+./main generate test.txt 1000 4096
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 1000 4096 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 4096 lib
+User Time: 8, System Time: 54
+
+./main copy test.txt test2.txt 1000 4096 sys
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 4096 sys
+User Time: 9, System Time: 38
+
+./main generate test.txt 10000 4096
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 10000 4096 lib
+User Time: 2, System Time: 2
+
+./main sort test2.txt 10000 4096 lib
+User Time: 815, System Time: 6070
+
+./main copy test.txt test2.txt 10000 4096 sys
+User Time: 0, System Time: 5
+
+./main sort test2.txt 10000 4096 sys
+User Time: 512, System Time: 4716
+
+./main generate test.txt 1000 8192
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 1000 8192 lib
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 8192 lib
+User Time: 9, System Time: 84
+
+./main copy test.txt test2.txt 1000 8192 sys
+User Time: 0, System Time: 0
+
+./main sort test2.txt 1000 8192 sys
+User Time: 8, System Time: 64
+
+./main generate test.txt 10000 8192
+User Time: 0, System Time: 0
+
+./main copy test.txt test2.txt 10000 8192 lib
+User Time: 2, System Time: 6
+
+./main sort test2.txt 10000 8192 lib
+User Time: 837, System Time: 9028
+
+./main copy test.txt test2.txt 10000 8192 sys
+User Time: 0, System Time: 8
+
+./main sort test2.txt 10000 8192 sys
+User Time: 508, System Time: 7459
+
+
+Funkcje systemowe sa zazwyczaj szybsze niz biblioteczne.
+
